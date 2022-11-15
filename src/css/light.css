@@ -1,0 +1,87 @@
+body,html {
+  height: 100%;
+}
+
+.wrap {
+  min-height: 100%;
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
+} 
+
+body
+{
+	background-color: #dedede;
+    color: #000;
+}
+
+.card {
+    background-color: #ffffff!important;
+}
+
+.navbar
+{
+	color: #000!important;
+    background-color: #ffffff!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #c3c3c3;
+}
+
+a
+{
+	color: #000!important;
+}
+
+.overlay-wrapper
+{
+  position: relative;
+}
+
+.overlay {
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: .7;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1052;
+  border-radius: 0.25rem;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  z-index: 50;
+  background-color: #000;
+}
+
+.form-control {
+  color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.form-control:focus {
+  color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.custom-file-label {
+    color: #343a40;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+}
